@@ -22,53 +22,71 @@ Visit the live deployment at [Github Pages](https://anirudhkille.github.io/nike-
 ## Screenshots
 
 <span>
-  <img src = "./readme/home.png" width = "100%"/>  
+  <img src = "./readme/home.png" width = "80%"/>  
     &ensp; &ensp;
 </span>
 
 
+
+
+
 <span>
-  <img src = "./readme/home-2.png" width = "100%"/>  
+  <img src = "./readme/home-2.png" width = "200px"/>  
     &ensp; &ensp;
 </span>
 
 
+
+
+
 <span>
-  <img src = "./readme/menu.png" width = "100%"/>  
+  <img src = "./readme/menu.png" width = "200px"/>  
     &ensp; &ensp;
 </span>
 
 
+
+
 <span>
-  <img src = "./readme/popular-products.png" width = "100%"/>  
+  <img src = "./readme/popular-products.png" width = "200px"/>  
     &ensp; &ensp;
 </span>
 
 
+
+
 <span>
-  <img src = "./readme/quality.png" width = "100%"/>  
+  <img src = "./readme/quality.png" width = "200px"/>  
     &ensp; &ensp;
 </span>
 
 
+
+
 <span>
-  <img src = "./readme/special-offer.png" width = "100%"/>  
+  <img src = "./readme/special-offer.png" width = "200px"/>  
     &ensp; &ensp;
 </span>
 
 
+
+
 <span>
-  <img src = "./readme/services.png" width = "100%"/>  
+  <img src = "./readme/services.png" width = "200px"/>  
     &ensp; &ensp;
 </span>
 
+
+
 <span>
-  <img src = "./readme/customer.png" width = "100%"/>  
+  <img src = "./readme/customer.png" width = "200px"/>  
     &ensp; &ensp;
 </span>
 
 
+
+
 <span>
-  <img src = "./readme/footer" width = "100%"/>  
+  <img src = "./readme/footer.png" width = "200px"/>  
     &ensp; &ensp;
 </span>
