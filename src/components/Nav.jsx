@@ -60,7 +60,7 @@ const Nav = () => {
               <li className="text-white font-montserrat leading-normal text-lg font-bold">
                 Sign In
               </li>
-              <li onClick={() => setIsMenuOpen(false)} >
+              <li onClick={() => setIsMenuOpen(false)}>
                 <img
                   src={close}
                   height={25}
