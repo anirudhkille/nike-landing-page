@@ -56,3 +56,15 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
 }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn .5s ease-in-out;
+}
