@@ -44,33 +44,35 @@ const Nav = () => {
           <img src={hamburger} alt="hamburger icon" width={25} height={25} />
         </div>
 
-        {isMenuOpen && (
-          <div className="absolute right-0 top-0 bg-coral-red z-100 lg:hidden fade-in">
-            <ul className=" flex justify-center items-center flex-col gap-5 px-10 py-10 ">
-              {navLinks.map((item) => (
-                <li key={item.label} onClick={() => setIsMenuOpen(false)}>
-                  <a
-                    href={item.href}
-                    className="font-montserrat leading-normal text-lg text-white font-bold"
-                  >
-                    {item.label}
-                  </a>
-                </li>
-              ))}
-              <li className="text-white font-montserrat leading-normal text-lg font-bold">
-                Sign In
+        <div
+          className={`fixed  top-0 bg-coral-red z-100 ${
+            isMenuOpen ? "duration-0 right-0" : "duration-700 -right-full"
+          } duration-700 h-screen w-[200px]`}
+        >
+          <ul className=" flex justify-center items-center flex-col gap-5 px-10 py-10 ">
+            {navLinks.map((item) => (
+              <li key={item.label} onClick={() => setIsMenuOpen(false)}>
+                <a
+                  href={item.href}
+                  className="font-montserrat leading-normal text-lg text-white font-bold"
+                >
+                  {item.label}
+                </a>
               </li>
-              <li onClick={() => setIsMenuOpen(false)}>
-                <img
-                  src={close}
-                  height={25}
-                  width={25}
-                  className="font-bold text-white"
-                />
-              </li>
-            </ul>
-          </div>
-        )}
+            ))}
+            <li className="text-white font-montserrat leading-normal text-lg font-bold">
+              Sign In
+            </li>
+            <li onClick={() => setIsMenuOpen(false)}>
+              <img
+                src={close}
+                height={25}
+                width={25}
+                className="font-bold text-white"
+              />
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
   );
